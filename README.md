@@ -4,7 +4,7 @@ Analyzing **45,000+ Data Science salaries (2020–2025)** to uncover trends and 
 
 ---
 
-## 📌 Dataset Overview
+##  Dataset Overview
 
 * **Rows:** 45,523
 * **Years Covered:** 2020–2025
@@ -21,7 +21,7 @@ Analyzing **45,000+ Data Science salaries (2020–2025)** to uncover trends and 
 
 ---
 
-# 🛠 Technologies Used
+# Technologies Used
 
 * Python
 * Pandas
@@ -30,9 +30,8 @@ Analyzing **45,000+ Data Science salaries (2020–2025)** to uncover trends and 
 * Seaborn
 * Scikit-Learn
 
----
 
-# 📈 Exploratory Data Analysis
+# Exploratory Data Analysis
 
 ## Top 10 Highest Paying Job Titles
 
@@ -64,7 +63,7 @@ Analyzing **45,000+ Data Science salaries (2020–2025)** to uncover trends and 
 
 ---
 
-# 🤖 Machine Learning Models
+# Machine Learning Models
 
 Implemented:
 
@@ -73,9 +72,7 @@ Implemented:
 * Random Forest Regressor
 * XGBoost Regressor
 
----
-
-# 🔍 Key Insights
+# Key Insights
 
 * Applied Scientist roles offer the highest average salaries.
 * Senior and Executive professionals earn significantly more.
@@ -83,15 +80,12 @@ Implemented:
 * Remote and on-site salaries are nearly identical.
 * Salary trends have increased over time.
 
----
 
-# 🚀 Future Improvements
+# Future Improvements
 
 * Hyperparameter tuning
 * Feature selection
 * Streamlit deployment
 * Interactive dashboard
 
----
 
-⭐ If you found this project useful, consider giving it a star.
