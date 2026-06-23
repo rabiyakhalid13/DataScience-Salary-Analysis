@@ -81,28 +81,41 @@ This is where most of the interesting insights came from. I created several visu
 ![Heatmap](images/correlation_heatmap.png)
 
 ---
-###3. Building the Models
+### 3. Building the Models
 
 Once the EDA part was done, I moved on to building a few regression models to try and predict salary:
 
-Linear Regression
-Decision Tree Regressor
-Random Forest Regressor
-XGBoost Regressor
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- XGBoost Regressor
 
 To check how well each model performed, I used:
 
-R² Score
-Mean Absolute Error (MAE)
+- R² Score
+- Mean Absolute Error (MAE)
 
-# Key Insights
+  ## What I Found
 
-* Applied Scientist roles offer the highest average salaries.
-* Senior and Executive professionals earn significantly more.
-* Medium-sized companies provide competitive salaries.
-* Remote and on-site salaries are nearly identical.
-* Salary trends have increased over time.
+- Applied Scientist roles came out on top in terms of average salary.
+- Senior and executive-level professionals earned noticeably more than entry-level employees, which was expected but good to confirm with real data.
+- Medium-sized companies, surprisingly, offered some of the most competitive salaries — sometimes even more than large companies.
+- There wasn't a huge difference between remote and on-site salaries, which kind of surprised me going in.
+- Overall, salaries showed a general upward trend across the years.
 
+## Where the Models Fell Short
+
+Honestly, the prediction models didn't perform as well as I expected. Even with Random Forest and XGBoost, the R² scores stayed on the lower side and the MAE was higher than I'd have liked.
+
+After digging into it, I think the main reason is that the dataset simply doesn't have some of the factors that actually move salary numbers the most, like:
+
+- Educational background
+- Actual years of experience (not just experience level buckets)
+- Specific technical skills or certifications
+- Company revenue or industry type
+- Individual performance and negotiation skills
+
+So no matter how advanced the model, it can only work with what's in the data. This was a good reminder that better models can't fix missing or limited features — the data itself sets the ceiling on what's possible.
 
 
 
