@@ -1,77 +1,99 @@
 # 📊 Data Science Salary Analysis (2020–2025)
-## Project Overview
 
-This project explores more than 45,000 global Data Science salary records collected between 2020 and 2025. The objective was to analyze salary trends, identify factors that influence compensation, and build machine learning models to predict salaries.
+## About This Project
 
-The project combines Exploratory Data Analysis (EDA) with machine learning to understand how variables such as experience level, company size, job roles, remote work, and geographical location affect salaries in the data science industry.
+I worked on this project to understand how salaries in the data science field have changed over the last few years, and what actually drives those numbers up or down. Using a dataset of over 45,000 salary records collected between 2020 and 2025, I looked into how things like experience level, job title, company size, location, and remote work setup affect how much someone earns in this field.
 
-##  Dataset Overview
+The project is split into two main parts — first, exploring the data to find patterns and trends, and second, building a few machine learning models to see how well salary could actually be predicted from the available features.
 
-* **Rows:** 45,523
-* **Years Covered:** 2020–2025
-* **Target Variable:** `salary_in_usd`
+## What I Wanted to Find Out
 
-### Features
+- How have data science salaries trended from 2020 to 2025?
+- Which job roles pay the most?
+- Does experience level make a big difference in pay?
+- How do salaries compare across different countries?
+- Does company size matter when it comes to compensation?
+- Does working remotely actually affect salary, up or down?
+- Can a machine learning model predict salary accurately using this data?
 
-* Experience Level
-* Employment Type
-* Job Title
-* Company Size
-* Remote Ratio
-* Company Location
+## Dataset Details
 
----
+- **Records:** 45,523
+- **Years Covered:** 2020 to 2025
+- **Target Column:** `salary_in_usd`
 
-# Technologies Used
+### Features Used
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-Learn
+- Experience Level
+- Employment Type
+- Job Title
+- Company Size
+- Remote Ratio
+- Company Location
+
+## Tools I Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- XGBoost
+
+## How I Approached It
+
+### 1. Cleaning and Preparing the Data
+
+Before jumping into analysis, I checked the dataset for missing values, dropped a few columns that weren't useful for this analysis, and encoded the categorical columns so they could be used in the ML models later.
+
+### 2. Exploring the Data
+
+This is where most of the interesting insights came from. I created several visualizations to understand the patterns better:
 
 
-# Exploratory Data Analysis
-
-## Top 10 Highest Paying Job Titles
+### Top 10 Highest Paying Job Titles
 
 ![Top Job Titles](images/top_10_highest_paying_job_titles.png)
 
 ---
 
-## Salary by Experience Level
+### Salary by Experience Level
 
 ![Experience Level](images/salary_by_experience_level.png)
 
 ---
 
-## Top 10 Paying Countries
+### Top 10 Paying Countries
 
 ![Countries](images/top_10_paying_countries.png)
 
 ---
 
-## Salary Trends (2020–2025)
+### Salary Trends (2020–2025)
 
 ![Trends](images/salary_trends_2020_2025.png)
 
 ---
 
-## Correlation Heatmap
+### Correlation Heatmap
 
 ![Heatmap](images/correlation_heatmap.png)
 
 ---
+###3. Building the Models
 
-# Machine Learning Models
+Once the EDA part was done, I moved on to building a few regression models to try and predict salary:
 
-Implemented:
+Linear Regression
+Decision Tree Regressor
+Random Forest Regressor
+XGBoost Regressor
 
-* Linear Regression
-* Decision Tree Regressor
-* Random Forest Regressor
-* XGBoost Regressor
+To check how well each model performed, I used:
+
+R² Score
+Mean Absolute Error (MAE)
 
 # Key Insights
 
@@ -82,11 +104,5 @@ Implemented:
 * Salary trends have increased over time.
 
 
-# Future Improvements
-
-* Hyperparameter tuning
-* Feature selection
-* Streamlit deployment
-* Interactive dashboard
 
 
