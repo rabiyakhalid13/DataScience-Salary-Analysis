@@ -1,8 +1,9 @@
-# 📊 Data Science Salary Analysis 2025
+📊 Data Science Salary Analysis (2020–2025)
+Project Overview
 
-Analyzing **45,000+ Data Science salaries (2020–2025)** to uncover trends and build machine learning models for salary prediction.
+This project explores more than 45,000 global Data Science salary records collected between 2020 and 2025. The objective was to analyze salary trends, identify factors that influence compensation, and build machine learning models to predict salaries.
 
----
+The project combines Exploratory Data Analysis (EDA) with machine learning to understand how variables such as experience level, company size, job roles, remote work, and geographical location affect salaries in the data science industry.
 
 ##  Dataset Overview
 
