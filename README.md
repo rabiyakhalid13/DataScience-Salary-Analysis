@@ -117,5 +117,20 @@ After digging into it, I think the main reason is that the dataset simply doesn'
 
 So no matter how advanced the model, it can only work with what's in the data. This was a good reminder that better models can't fix missing or limited features — the data itself sets the ceiling on what's possible.
 
+## Excel Dashboard
 
+Extended this analysis into an interactive Excel dashboard using pivot tables, 
+pivot charts, and slicers — allowing users to filter salary data by 
+experience level and remote work category.
+
+### Dashboard Overview (No Filters)
+![Dashboard Overview](Excel%20Dashboard/dashboard-overview.png)
+
+### Filtered by Senior Experience Level
+![Senior Filter](Excel%20Dashboard/dashboard-senior-filter.png)
+
+### Filtered by Fully Remote Category
+![Remote Filter](Excel%20Dashboard/dashboard-remote-filter.png)
+
+[Download the Excel file](Excel%20Dashboard/dashboard.xlsx)
 
