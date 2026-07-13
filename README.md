@@ -165,7 +165,7 @@ The Python section focuses on exploration and visualization. This section
 focuses on database querying itself — writing correct, efficient SQL and 
 integrating it with Python, which is a distinct skill from pandas-based analysis.
 
-### Sample Insight
+### Key Finding
 
 Senior-level employees earn significantly above the dataset average, while 
 Entry-level salaries fall below it — confirmed independently through SQL 
