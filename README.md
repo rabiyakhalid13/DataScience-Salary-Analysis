@@ -2,9 +2,20 @@
 
 ## About This Project
 
-I worked on this project to understand how salaries in the data science field have changed over the last few years, and what actually drives those numbers up or down. Using a dataset of over 45,000 salary records collected between 2020 and 2025, I looked into how things like experience level, job title, company size, location, and remote work setup affect how much someone earns in this field.
+I worked on this project to understand how salaries in the data science field 
+have changed over the last few years, and what actually drives those numbers 
+up or down. Using a dataset of over 45,000 salary records collected between 
+2020 and 2025, I looked into how things like experience level, job title, 
+company size, location, and remote work setup affect how much someone earns 
+in this field.
 
-The project is split into two main parts — first, exploring the data to find patterns and trends, and second, building a few machine learning models to see how well salary could actually be predicted from the available features.
+The project is split into three main parts — first, cleaning and exploring 
+the data through visualizations to find patterns and trends, second, building 
+a few machine learning models to see how well salary could actually be 
+predicted from the available features, and third, re-analyzing the same 
+dataset using SQL to practice database querying and connecting Python to a 
+MySQL database. I also extended the analysis into an interactive Excel 
+dashboard for a more visual, filterable view of the data.
 
 ## What I Wanted to Find Out
 
@@ -133,4 +144,32 @@ experience level and remote work category.
 ![Remote Filter](Excel%20Dashboard/dashboard-remote-filter.png)
 
 [Download the Excel file](Excel%20Dashboard/dashboard.xlsx)
+
+## SQL Analysis
+
+To strengthen the database querying side of this analysis, I re-explored 
+the same dataset using SQL — importing it into MySQL and writing queries 
+to answer many of the same questions I had explored in Python, plus a 
+few new ones.
+
+### What I Practiced
+- Filtering and sorting data (WHERE, ORDER BY)
+- Aggregate functions (AVG, MAX, MIN, COUNT)
+- Grouping and conditional grouping (GROUP BY, HAVING)
+- Subqueries (e.g., finding employees earning above the overall average salary)
+- Connecting Python to MySQL using the DB-API pattern (mysql-connector-python) 
+  and running queries via pandas
+
+### Why I Did This Separately from the Python EDA
+The Python section focuses on exploration and visualization. This section 
+focuses on database querying itself — writing correct, efficient SQL and 
+integrating it with Python, which is a distinct skill from pandas-based analysis.
+
+### Sample Insight
+
+Senior-level employees earn significantly above the dataset average, while 
+Entry-level salaries fall below it — confirmed independently through SQL 
+aggregate queries.
+
+[Download SQL queries](https://github.com/rabiyakhalid13/DataScience-Salary-Analysis/blob/main/Sql%20Analysis/SQL%20Script.sql) | [Python connection script](https://github.com/rabiyakhalid13/DataScience-Salary-Analysis/blob/main/Sql%20Analysis/db_connection.py)
 
