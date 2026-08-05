@@ -8,7 +8,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from xgboost import XGBRegressor
 
-df = pd.read_csv(r"C:\Users\Dell\Desktop\project\Data-Science-Salaries\cleaned_data.csv")
+df = pd.read_csv(r"C:\Users\Dell\Desktop\project\DataScience-Salary-Analysis\data\cleaned_data.csv")
 print("Cleaned Dataset Loaded Successfully!")
 #Chaging Data type of work year to int
 df['work_year'] = df['work_year'].astype(int)
@@ -117,3 +117,11 @@ plt.xlabel("Actual Salary", fontsize=12)
 plt.ylabel("Predicted Salary", fontsize=12)
 plt.show()
 
+import joblib
+
+joblib.dump(xgb_model, 'salary_model.pkl')
+print("Model saved as salary_model.pkl")
+
+feature_columns = list(X.columns)
+joblib.dump(feature_columns, 'feature_columns.pkl')
+print("Feature order saved:", feature_columns)
