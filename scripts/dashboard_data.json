@@ -1,0 +1,276 @@
+{
+  "top_paying_jobs": [
+    {
+      "job_title": "Applied Scientist",
+      "avg_salary": 185801.76
+    },
+    {
+      "job_title": "Product Manager",
+      "avg_salary": 181023.4
+    },
+    {
+      "job_title": "Machine Learning Engineer",
+      "avg_salary": 177587.12
+    },
+    {
+      "job_title": "Research Scientist",
+      "avg_salary": 177469.38
+    },
+    {
+      "job_title": "Research Engineer",
+      "avg_salary": 176452.63
+    },
+    {
+      "job_title": "Software Engineer",
+      "avg_salary": 170600.56
+    },
+    {
+      "job_title": "Manager",
+      "avg_salary": 161167.26
+    },
+    {
+      "job_title": "Data Architect",
+      "avg_salary": 159094.18
+    },
+    {
+      "job_title": "AI Engineer",
+      "avg_salary": 158733.96
+    },
+    {
+      "job_title": "Engineer",
+      "avg_salary": 154880.16
+    }
+  ],
+  "salary_by_experience": [
+    {
+      "level": "Entry",
+      "avg_salary": 95786.51
+    },
+    {
+      "level": "Mid-Level",
+      "avg_salary": 131792.9
+    },
+    {
+      "level": "Senior",
+      "avg_salary": 161687.57
+    },
+    {
+      "level": "Executive",
+      "avg_salary": 186190.2
+    }
+  ],
+  "salary_by_remote_category": [
+    {
+      "category": "On-site",
+      "median_salary": 137400.0
+    },
+    {
+      "category": "Hybrid",
+      "median_salary": 66666.0
+    },
+    {
+      "category": "Fully Remote",
+      "median_salary": 138000.0
+    }
+  ],
+  "top_paying_countries": [
+    {
+      "country": "QA",
+      "avg_salary": 300000.0
+    },
+    {
+      "country": "VE",
+      "avg_salary": 192500.0
+    },
+    {
+      "country": "US",
+      "avg_salary": 153066.82
+    },
+    {
+      "country": "SA",
+      "avg_salary": 139999.33
+    },
+    {
+      "country": "MY",
+      "avg_salary": 134615.5
+    },
+    {
+      "country": "PR",
+      "avg_salary": 134400.0
+    },
+    {
+      "country": "EG",
+      "avg_salary": 133318.75
+    },
+    {
+      "country": "CA",
+      "avg_salary": 129231.01
+    },
+    {
+      "country": "NZ",
+      "avg_salary": 127108.74
+    },
+    {
+      "country": "IL",
+      "avg_salary": 125983.62
+    }
+  ],
+  "salary_trends": [
+    {
+      "year": 2020,
+      "experience": "Entry",
+      "avg_salary": 69840.67
+    },
+    {
+      "year": 2020,
+      "experience": "Executive",
+      "avg_salary": 179958.25
+    },
+    {
+      "year": 2020,
+      "experience": "Mid-Level",
+      "avg_salary": 79933.3
+    },
+    {
+      "year": 2020,
+      "experience": "Senior",
+      "avg_salary": 123462.72
+    },
+    {
+      "year": 2021,
+      "experience": "Entry",
+      "avg_salary": 62873.36
+    },
+    {
+      "year": 2021,
+      "experience": "Executive",
+      "avg_salary": 160586.67
+    },
+    {
+      "year": 2021,
+      "experience": "Mid-Level",
+      "avg_salary": 80595.98
+    },
+    {
+      "year": 2021,
+      "experience": "Senior",
+      "avg_salary": 125989.75
+    },
+    {
+      "year": 2022,
+      "experience": "Entry",
+      "avg_salary": 72262.57
+    },
+    {
+      "year": 2022,
+      "experience": "Executive",
+      "avg_salary": 180359.46
+    },
+    {
+      "year": 2022,
+      "experience": "Mid-Level",
+      "avg_salary": 100217.6
+    },
+    {
+      "year": 2022,
+      "experience": "Senior",
+      "avg_salary": 147523.87
+    },
+    {
+      "year": 2023,
+      "experience": "Entry",
+      "avg_salary": 89369.39
+    },
+    {
+      "year": 2023,
+      "experience": "Executive",
+      "avg_salary": 183628.88
+    },
+    {
+      "year": 2023,
+      "experience": "Mid-Level",
+      "avg_salary": 120258.69
+    },
+    {
+      "year": 2023,
+      "experience": "Senior",
+      "avg_salary": 161646.64
+    },
+    {
+      "year": 2024,
+      "experience": "Entry",
+      "avg_salary": 98891.34
+    },
+    {
+      "year": 2024,
+      "experience": "Executive",
+      "avg_salary": 188305.59
+    },
+    {
+      "year": 2024,
+      "experience": "Mid-Level",
+      "avg_salary": 134462.59
+    },
+    {
+      "year": 2024,
+      "experience": "Senior",
+      "avg_salary": 162689.35
+    },
+    {
+      "year": 2025,
+      "experience": "Entry",
+      "avg_salary": 93208.43
+    },
+    {
+      "year": 2025,
+      "experience": "Executive",
+      "avg_salary": 184395.34
+    },
+    {
+      "year": 2025,
+      "experience": "Mid-Level",
+      "avg_salary": 132421.28
+    },
+    {
+      "year": 2025,
+      "experience": "Senior",
+      "avg_salary": 161586.21
+    }
+  ],
+  "salary_by_company_size": [
+    {
+      "size": "Small",
+      "avg_salary": 86830.25
+    },
+    {
+      "size": "Medium",
+      "avg_salary": 145580.69
+    },
+    {
+      "size": "Large",
+      "avg_salary": 133293.35
+    }
+  ],
+  "ai_ml_roles_comparison": [
+    {
+      "job_title": "Machine Learning Engineer",
+      "avg_salary": 177587.12
+    },
+    {
+      "job_title": "Research Scientist",
+      "avg_salary": 177469.38
+    },
+    {
+      "job_title": "AI Engineer",
+      "avg_salary": 158733.96
+    },
+    {
+      "job_title": "Data Scientist",
+      "avg_salary": 148917.49
+    },
+    {
+      "job_title": "Data Engineer",
+      "avg_salary": 143796.0
+    }
+  ]
+}
