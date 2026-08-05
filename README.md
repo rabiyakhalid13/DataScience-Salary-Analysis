@@ -1,5 +1,9 @@
 # 📊 Data Science Salary Analysis (2020–2025)
 
+## 🔗 Live Demo
+🌐 Web App: https://data-wage-navigator.lovable.app
+⚙️ API Docs: https://datascience-salary-analysis-production.up.railway.app/docs
+
 ## About This Project
 
 I worked on this project to understand how salaries in the data science field 
