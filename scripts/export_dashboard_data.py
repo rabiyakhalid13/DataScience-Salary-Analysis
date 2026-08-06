@@ -76,4 +76,4 @@ dashboard_data['ai_ml_roles_comparison'] = [
 with open("dashboard_data.json", "w") as f:
     json.dump(dashboard_data, f, indent=2)
 
-print("Saved dashboard_data.json — upload/paste this into your Lovable project.")
+print("Saved dashboard_data.json — upload/paste this into Lovable project.")

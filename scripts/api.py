@@ -6,7 +6,6 @@ import pandas as pd
 
 app = FastAPI(title="Salary Predictor API")
 
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],        
@@ -15,11 +14,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 model = joblib.load("salary_model.pkl")
 feature_columns = joblib.load("feature_columns.pkl")
-
-
 
 class SalaryInput(BaseModel):
     seniority_score: int      
@@ -27,11 +23,9 @@ class SalaryInput(BaseModel):
     company_size_int: int     
     work_year: int            
 
-
 @app.get("/")
 def home():
     return {"status": "Salary Predictor API is running"}
-
 
 @app.post("/predict")
 def predict_salary(data: SalaryInput):
